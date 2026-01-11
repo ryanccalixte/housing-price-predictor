@@ -1,10 +1,6 @@
-# Basic Decision Tree Project
+# Advanced Housing Price Project
 
-A small example project that trains a Decision Tree regressor on housing data and reports prediction results and the model's mean absolute error.
-
-## Contents
-- `basiclearningdata.py` — trains the model, evaluates different tree sizes, and prints predictions.
-- `Housing.csv` — expected dataset (place in the same folder or update the path in the script).
+This project trains and evaluates a Random Forest regression model to predict house prices from a small tabular dataset. It demonstrates a preprocessing pipeline (numeric imputation + one-hot encoding), model training, and a user-friendly printed output of predictions and summary metrics.
 
 ## Requirements
 - Python 3.8+ (tested)
@@ -16,10 +12,6 @@ Install dependencies with:
 ```powershell
 pip install pandas scikit-learn
 ```
-
-# Advanced Housing Price Project
-
-This project trains and evaluates a Random Forest regression model to predict house prices from a small tabular dataset. It demonstrates a preprocessing pipeline (numeric imputation + one-hot encoding), model training, and a user-friendly printed output of predictions and summary metrics.
 
 ## Contents
 - `advancedhousingprice.py` — main script that prepares the data, trains a pipeline (preprocessor + `RandomForestRegressor`), prints a formatted prediction table and summary metrics.
@@ -49,3 +41,4 @@ The script prints the first 10 rows of prediction results in a formatted table a
 ## Tips
 - If you want to reproduce results exactly, set a fixed random seed where needed (the script uses `random_state=0`).
 - To capture your environment, run `pip freeze > requirements.txt` and add it to the repo.
+
