@@ -22,7 +22,7 @@ pip install pandas scikit-learn
 - Splits data into train and validation sets
 - Builds a preprocessing pipeline: numeric imputation and one-hot encoding for categorical columns
 - Trains a `RandomForestRegressor` inside a `Pipeline`
-- Outputs a human-friendly table showing actual vs predicted prices, absolute and percentage errors, and prints Mean Absolute Error and mean percentage error
+- Outputs a table showing actual vs predicted prices, absolute and percentage errors, and prints Mean Absolute Error and mean percentage error
 
 
 ## Usage
