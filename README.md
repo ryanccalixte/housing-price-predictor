@@ -17,9 +17,6 @@ pip install pandas scikit-learn
 - `advancedhousingprice.py` — main script that prepares the data, trains a pipeline (preprocessor + `RandomForestRegressor`), prints a formatted prediction table and summary metrics.
 - `HousingData.csv` — dataset (expected in the same folder as the script).
 
-## Features used
-- `SqFt`, `Bedrooms`, `Bathrooms`, `Brick`, `Neighborhood`
-
 ## What the script does
 - Loads `HousingData.csv`
 - Splits data into train and validation sets
