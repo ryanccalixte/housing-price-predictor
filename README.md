@@ -3,7 +3,7 @@
 This project trains and evaluates a Random Forest regression model to predict house prices from a small tabular dataset. It demonstrates a preprocessing pipeline (numeric imputation + one-hot encoding), model training, and a user-friendly printed output of predictions and summary metrics.
 
 ## Requirements
-- Python 3.8+ (tested)
+- Python 3.8+
 - pandas
 - scikit-learn
 
@@ -39,3 +39,12 @@ The script prints the first 10 rows of prediction results in a formatted table a
 - If you want to reproduce results exactly, set a fixed random seed where needed (the script uses `random_state=0`).
 - To capture your environment, run `pip freeze > requirements.txt` and add it to the repo.
 
+## License (MIT)
+
+MIT License
+
+Copyright (c) 2026 Ryan Calixte
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
